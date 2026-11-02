@@ -1,4 +1,4 @@
-name: gunish - 8
+name: melania - 8
 
 on:
   workflow_dispatch:
@@ -7,11 +7,11 @@ permissions:
   contents: read
 
 concurrency:
-  group: tailscale-gunish-8
+  group: tailscale-melania-8
   cancel-in-progress: false
 
 env:
-  TS_HOSTNAME: gunish-8
+  TS_HOSTNAME: melania-8
 
 jobs:
   debug:
